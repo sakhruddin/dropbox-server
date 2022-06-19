@@ -3,13 +3,11 @@ const mongoose = require('mongoose');
 const app = express()
 
 app.use(express.json());
-app.use(require("./routes/news.route"));
-app.use(require("./routes/categories.route"));
-app.use(require("./routes/commits.route"));
+app.use(require("./routes/drinks.routes.js"));
 
 
 
-mongoose.connect("mongodb+srv://sakhruddin:faros095@cluster0.z8yq6.mongodb.net/news-site?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://sakhruddin:faros095@cluster0.z8yq6.mongodb.net/coffee-shop?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })

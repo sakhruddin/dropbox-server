@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakhruddin/dropbox-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sakhruddin/dropbox-server/issues"
+  },
+  "homepage": "https://github.com/sakhruddin/dropbox-server#readme",
   "description": ""
 }
